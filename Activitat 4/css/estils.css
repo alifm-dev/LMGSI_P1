@@ -1,0 +1,157 @@
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+.resultats {
+  display: flex;
+  gap: 24px;
+}
+
+.targeta {
+  flex: 1;
+}
+
+/* ===== ELS VOSTRES ESTILS ===== */
+
+/* ===== Estils generals ===== */
+
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* ===== Capçalera ===== */
+
+header {
+  background-color: #0b3a5e;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #01b4e4;
+}
+
+/* ===== Buscador ===== */
+
+.buscador {
+  background-color: #032541;
+  color: #ffffff;
+  text-align: center;
+  padding: 75px 20px;
+}
+
+.buscador h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+}
+
+.buscador p {
+  display: block;
+  color: #c5d5e5;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.buscador form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.buscador form div {
+  display: flex;
+}
+
+.buscador input {
+  width: 70%;
+  border: none;
+  background-color: #0b3a5e;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px 0 0 8px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.buscador button {
+  background-color: #01b4e4;
+  color: #032541;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 0 8px 8px 0;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+/* ===== Resultats ===== */
+
+.pelicules {
+  padding: 40px;
+}
+
+.pelicules h2 {
+  margin-bottom: 25px;
+  color: #032541;
+}
+
+.targeta {
+  background-color: #0b3a5e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.targeta img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.targeta h3 {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 0 15px;
+  margin: 12px 0 5px 0;
+}
+
+.targeta p {
+  color: #90cea1;
+  padding: 0 15px;
+  margin: 5px 0 15px 0;
+}
+
+/* ===== Peu de pagina ===== */
+
+footer {
+  background-color: #032541;
+  color: #c5d5e5;
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
